@@ -1,0 +1,129 @@
+body{
+    background:rgb(31, 1, 87);
+    display:flex;
+    justify-content: center;
+}
+#body{
+    position:fixed;
+    top:30px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#search{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#search input{
+    position:absolute;
+    left:32px;
+    width:200px;
+    height:40px;
+    background-color:rgb(31, 1, 87);
+    border: none;
+    border-bottom: 3px solid white;
+    border-radius: 0;
+    font-size: 25px;
+    color:white;
+    outline:none
+}
+#icon{
+    position:absolute;
+    top:7px;
+    right:32px;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgba(241, 41, 41, 0.89);
+    border:none;
+}
+#icon :nth-child(1){
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color: white;
+    width:18px;
+    height:18px;
+    border-radius: 9px;
+}
+#icon :nth-child(1) div{
+    position:absolute;
+    top:2px;
+    left:2px;
+    background-color: rgba(241, 41, 41, 0.89);
+    width:14px;
+    height:14px;
+    border-radius: 7px;
+}
+#icon :nth-child(2){
+    position:absolute;
+    bottom:12px;
+    right:11px;
+    background-color: white;
+    width:5px;
+    height:2px;
+    transform: rotate(45deg);
+}
+#display ::placeholder{
+    color:white;
+    opacity:1;
+}
+#display{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(31, 1, 87);
+    width:320px;
+    height:430px;
+    background-color: white;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#category{
+    padding-top: 25px;
+    width:270px;
+    height:420px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#destination{
+    font-size: 30px;
+    text-align: center;
+    height:40px;
+    border-bottom: 3px solid rgb(31, 1, 87);
+}
+#AQI{
+    height:45px;
+    color:rgb(31, 1, 87);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+#condition{
+    font-size: 18px;
+    text-align: center;
+    height:30px;
+    border-bottom: 3px solid rgb(31, 1, 87);
+}
+#detail{
+    padding-left: 20px;
+    padding-right: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#statistics{
+    text-align: right;
+}
+#statistics h4{
+    font-weight: normal;
+}
+#source_code{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}

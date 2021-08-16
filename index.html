@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>AQI Tracker</title>
+	</head>
+	<body>
+        <div id="body">
+            <div id="search">
+                <input placeholder="ZIP Code search" maxlength="5" id="search_box">
+                <button id="icon">
+                    <div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                </button>
+            </div>
+            <div id="display">
+                <div id="category">
+                    <div id="destination"></div>
+                    <div id="AQI"></div>
+                    <div id="condition"></div>
+                    <div id="detail">
+                        <div>
+                            <h4>PM2.5</h4>
+                            <h4>PM10</h4>
+                            <h4>O3</h4>
+                            <h4>NO2</h4>
+                            <h4>SO2</h4>
+                            <h4>CO</h4>
+                        </div>
+                        <div id="statistics">
+                            <h4 id="PM25"></h4>
+                            <h4 id="PM10"></h4>
+                            <h4 id="O3"></h4>
+                            <h4 id="NO2"></h4>
+                            <h4 id="SO2"></h4>
+                            <h4 id="CO"></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div>
+                <a id="source_code" href="https://github.com/thientn4/WordLadderGenerator", target="__blank__">source code</a>   
+            </div>-->
+        </div>
+        <script src="app.js"></script>  
+	</body>
+</html>
